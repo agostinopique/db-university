@@ -5,7 +5,7 @@ MySQL Query strings GROUP BY:
    FROM `students` 
    GROUP BY YEAR(`students`.`enrolment_date`);2) SELECT COUNT(*) AS `numero_insegnanti`, `teachers`.`office_address` AS `indirizzo_ufficio`
    FROM `teachers`
-   GROUNP BY `teachers`.`office_address`;
+   GROUP BY `teachers`.`office_address`;
 
 3) SELECT AVG(`exam_student`.`vote`) AS `mediavoti`, `exam_student`.`exam_id` AS `esame`
    FROM `exam_student`
